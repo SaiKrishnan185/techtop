@@ -4,9 +4,8 @@ import connect from "../../assets/connect.jpg"
 export const ConnectPage = () => {
   return (
     <div style={{ backgroundImage: `url(${connect})` }} className="mt-10 h-96 bg-cover bg-center  md:pl-5 p-1 flex items-center justify-center">
-
       
-      <div className="w-full md:w-2/5 p-4 text-center bg-white/[0.1] border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full md:w-2/5 p-4 text-center bg-black/[0.6] border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
           <h5 className="mb-2 text-3xl font-bold text-white dark:text-white">Connect With Us</h5>
           <p className="mb-5 text-base text-white sm:text-lg dark:text-gray-400">Lets share our ideas.</p>
           <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">

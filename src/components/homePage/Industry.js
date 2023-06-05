@@ -3,7 +3,7 @@ import { IndustryCard } from './IndustryCard'
 
 export const Industry = () => {
   return (
-    <div className='bg-gray-100 pt-8 pb-20'>
+    <div className='bg-black pt-8 pb-20 text-white'>
         <p className='md:text-4xl text-2xl mb-10 p-2 text-center font-semibold tracking-tight '>Industries We Work With</p>
         <div className='md:flex md:flex-row  md:gap-3 md:flex-wrap justify-center md:mx-5 text-center'>
             <IndustryCard head="Commerce" detail="Reimagining commerce through future-proof solutions that meet the shifting consumption patterns driven by consumer craving for digital and contactless ways of shopping."/>

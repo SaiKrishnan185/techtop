@@ -4,7 +4,7 @@ import { ServiceCard } from './ServiceCard'
 
 export const Service = () => {
   return (
-    <div className='md:flex md:flex-row-reverse flex-col md:flex-wrap md:justify-between items-center pt-10 md:m-10 justify-center'>
+    <div className='md:flex md:flex-row-reverse flex-col md:flex-wrap md:justify-between items-center pt-10 md:m-10 justify-center bg-black text-white'>
         <div className='md:w-3/12'>
             <img src={team} alt="Team" />
         </div>
