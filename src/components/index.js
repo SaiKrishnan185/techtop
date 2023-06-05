@@ -1,0 +1,7 @@
+export { Header } from "./Header";
+export { Footer } from "./Footer";
+export { Intro } from "./homePage/Intro";
+export { Service } from "./homePage/Service";
+export { Industry } from "./homePage/Industry"
+export { TechPage } from "./homePage/TechPage"
+export { ConnectPage } from "./homePage/ConnectPage"
