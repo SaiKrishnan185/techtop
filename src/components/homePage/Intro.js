@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Intro = () => {
   return (
-    <div style={{ backgroundImage: `url(${frontpage})` }} className="h-screen bg-cover bg-no-repeat flex justify-center items-center">
+    <div style={{ backgroundImage: `url(${frontpage})` }} className="h-screen bg-cover bg-no-repeat bg-center flex justify-center items-center">
       
       <div className="md:w-3/4 min-w-fit md:h-2/4 h-fit p-6 bg-black/[0.8]  border-white/[0.1] border-2 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-center items-center content-center">
           <h5 className="text-4xl mb-10 p-2 text-center font-semibold tracking-tight text-white dark:text-white">Leverage the data to <br></br>performance & strategic<br></br> advantage with AI</h5>
