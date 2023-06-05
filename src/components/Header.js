@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link , NavLink } from "react-router-dom"
+import logo from "../assets/logo.png"
 
 export const Header = () => {
 
@@ -14,8 +15,8 @@ export const Header = () => {
 <nav className="fixed w-full z-20 top-0 left-0 border-gray-200 bg-white dark:bg-gray-800 dark:border-gray-700">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link to="/" className="flex items-center">
-        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">No Name</span>
+        <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tech Noise</span>
     </Link>
     <button onClick={ () => setHidden(!hidden)} data-collapse-toggle="navbar-solid-bg" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
       <span className="sr-only">Open main menu</span>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from "../assets/logo.png"
 
 export const Footer = () => {
   return (
@@ -8,8 +9,8 @@ export const Footer = () => {
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <Link to="/" class="flex items-center mb-4 sm:mb-0">
-                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NoName</span>
+                    <img src={logo} class="h-8 mr-3" alt="Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tech Noise</span>
                 </Link>
                 <div>
                     <h2>Get In Touch</h2>
