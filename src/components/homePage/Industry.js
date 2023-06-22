@@ -4,18 +4,17 @@ import { IndustryCard } from './IndustryCard'
 
 export const Industry = () => {
   return (
-    <div className='bg-black pt-8 pb-20 text-white'>
-        <p className='md:text-4xl text-2xl mb-10 p-2 text-center font-semibold tracking-tight '>Industries We Work With</p>
+    <div className='bg-gray-800/[0.2] pt-8 pb-20 text-white '>
+        <p className='md:text-4xl text-2xl mb-10 p-2 text-center font-semibold tracking-tight '>Paying attention</p>
 
         {/* <video className=' md:w-screen md:h-full' autoPlay loop muted>
           <source src={demoFile} type='video/mp4' />
         </video> */}
 
-        <div className='md:flex md:flex-row  md:gap-3 md:flex-wrap justify-center md:mx-5 text-center'>
-            <IndustryCard head="Commerce" detail="Reimagining commerce through future-proof solutions that meet the shifting consumption patterns driven by consumer craving for digital and contactless ways of shopping."/>
-            <IndustryCard head="BFSI" detail="ROI-driven digital solutions for building agile models to deter fraud, automate transaction-based processes, and reimagine how manual tasks are completed in terms of security and scalability."/>
-            <IndustryCard head="Education" detail="One-stop destination crafted to function in tandem with the latest institutional practices optimising the use and implementation of the education curriculum."/>
-            <IndustryCard head="Payments" detail="Robust payment solutions leveraging next generation technology for rapid business development, higher operational efficiencies, and improved service innovations."/>
+        <div className='md:flex md:flex-row  md:gap-3 md:flex-wrap justify-between md:mx-5 text-center'>
+            <IndustryCard head="Powerful Technology Solutions" detail="Technonyms provides powerful technology solutions for software development, offering cutting-edge solutions to help companies build and manage their software applications. Our experienced and knowledgeable team of developers are experts in developing custom software solutions tailored to each customer's unique needs, leveraging the latest technologies and industry-leading standards. Whether you are looking for a simple website or a complex, large-scale application, Technonyms provides powerful technology solutions to help your organization succeed."/>
+            <IndustryCard head="Technonyms Software Development" detail="Technonyms Software Development is a software development business that specializes in providing custom software solutions for businesses. Our team of experienced developers provide high quality, cost-effective solutions while ensuring customer satisfaction. We strive to produce innovative and reliable software applications that are tailored to your business's specific needs. Our services include custom software development, software integration, cloud-based solutions, maintenance, and more."/>
+            <IndustryCard head="Tech Solutions by Technonyms" detail="Technonyms' Tech Solutions by Technonyms is a software development service that provides innovative technology solutions tailored to meet the diverse needs of businesses. From custom software applications and web development to mobile development and cloud infrastructure, Technonyms' professional team of software developers and engineers will work with you to develop custom solutions for your business. With a focus on quality, scalability, and efficiency, Technonyms' Tech Solutions will help you achieve higher levels of success."/>
         </div>
     </div>
   )

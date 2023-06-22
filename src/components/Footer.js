@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="sm:flex sm:items-center sm:justify-between">
                 <Link to="/" className="flex items-center mb-4 sm:mb-0">
                     <img src={logo} className="h-8 mr-3" alt="Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tech Noise</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Technonyms</span>
                 </Link>
                 <div>
                     <h2>Get In Touch</h2>
@@ -22,7 +22,7 @@ export const Footer = () => {
                 
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link to="/" className="hover:underline">NoName</Link>. All Rights Reserved.</span>
+            <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link to="/" className="hover:underline">Technonyms</Link>. All Rights Reserved.</span>
         </div>
     </footer>
   )
