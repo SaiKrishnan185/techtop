@@ -31,7 +31,7 @@ export const Header = () => {
           <NavLink to="/Consulting" className={({isActive}) => isActive ? activeClass : inActiveClass} >Consulting</NavLink>
         </li>
         <li>
-          <NavLink to="/b" className={({isActive}) => isActive ? activeClass : inActiveClass} >Technology</NavLink>
+          <NavLink to="/Technology" className={({isActive}) => isActive ? activeClass : inActiveClass} >Technology</NavLink>
         </li>
         <li>
           <NavLink to="/c" className={({isActive}) => isActive ? activeClass : inActiveClass} >About Us</NavLink>
