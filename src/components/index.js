@@ -9,3 +9,5 @@ export { TechPage } from "./homePage/TechPage"
 export { ConnectPage } from "./homePage/ConnectPage"
 
 export { ConsultCard } from "./Consulting/ConsultCard"
+
+export { ScrollToTop } from "./ScrollToTop";
