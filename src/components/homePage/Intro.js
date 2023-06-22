@@ -1,6 +1,6 @@
 import frontpage from "../../assets/frontpage.jpg"
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export const Intro = () => {
   return (
