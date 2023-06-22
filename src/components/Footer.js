@@ -14,9 +14,8 @@ export const Footer = () => {
                 </Link>
                 <div>
                     <h2>Get In Touch</h2>
-                    <p className='text-xs'> Address</p>
                     <p className='text-xs'>Email</p>
-                    <p className='text-xs'>Phone</p>
+                    <p className='text-xs'>Phone : 7034501233</p>
                 </div>
                 
                 
