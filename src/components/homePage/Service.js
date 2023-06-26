@@ -1,4 +1,4 @@
-import team from "../../assets/team.jpg"
+// import team from "../../assets/team.jpg"
 import web from "../../assets/web.jpg"
 import test from "../../assets/test.jpg"
 import softDev from "../../assets/softDev.jpg"

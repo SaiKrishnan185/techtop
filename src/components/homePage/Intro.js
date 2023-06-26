@@ -1,4 +1,4 @@
-import frontpage from "../../assets/frontpage.jpg"
+// import frontpage from "../../assets/frontpage.jpg"
 import test from "../../assets/bgtest.mp4"
 
 // import { Link } from 'react-router-dom'
