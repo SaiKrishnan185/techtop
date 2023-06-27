@@ -4,7 +4,7 @@ import { IndustryCard } from './IndustryCard'
 
 export const Industry = () => {
   return (
-    <div className='bg-gray-800/[0.2] pt-8 pb-20 text-white '>
+    <div className='bg-gray-800/[0.2]  pb-12 text-white h-screen flex flex-col justify-around items-center' >
         <p className='md:text-4xl text-2xl mb-10 p-2 text-center font-semibold tracking-tight '>Paying attention</p>
 
         {/* <video className=' md:w-screen md:h-full' autoPlay loop muted>
