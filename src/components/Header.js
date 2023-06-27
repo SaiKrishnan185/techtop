@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <div>
       
-<nav className="fixed w-full z-20 top-0 left-0 border-gray-200 bg-black text-white dark:bg-gray-800 dark:border-gray-700">
+<nav className="fixed w-full z-20 top-0 left-0 border-gray-200 bg-black/[0.8] text-white dark:bg-gray-800 dark:border-gray-700">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link to="/" className="flex items-center">
         <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
