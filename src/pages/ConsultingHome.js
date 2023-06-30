@@ -1,4 +1,3 @@
-import React from 'react'
 import { ConsultCard } from '../components'
 
 import web from "../assets/web.jpg"
