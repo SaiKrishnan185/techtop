@@ -3,6 +3,7 @@ import { ConsultingHome, Home, TechnologyHome } from "../pages";
 
 import bgTest from "../assets/bgtest.mp4"
 import poster from "../assets/poster.jpg"
+import { ContactHome } from "../pages/ContactHome";
 
 export const AllRoutes = () => {
   return (
@@ -14,6 +15,7 @@ export const AllRoutes = () => {
             <Route path="/" element={ <Home/>} />
             <Route path="/Consulting" element={< ConsultingHome/>} />
             <Route path="/Technology" element={< TechnologyHome/>} />
+            <Route path="/Contact" element={< ContactHome/>} />
         </Routes>
     </div>
   )

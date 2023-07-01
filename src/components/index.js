@@ -13,4 +13,6 @@ export { ConsultCardTwo } from "./Consulting/ConsultCardTwo"
 export { TechnoCard } from "./Technology/TechnoCard"
 export { TechnoCardTwo } from "./Technology/TechnoCardTwo";
 
+export { ContactForm } from "./ContactUs/ContactForm"
+
 export { ScrollToTop } from "./ScrollToTop";
