@@ -1,9 +1,10 @@
-import { ContactForm } from "../components"
+import { ContactForm, MapComponent } from "../components"
 
 export const ContactHome = () => {
   return (
     <div>
         <ContactForm />
+        <MapComponent />
     </div>
   )
 }

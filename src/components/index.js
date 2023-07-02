@@ -14,5 +14,6 @@ export { TechnoCard } from "./Technology/TechnoCard"
 export { TechnoCardTwo } from "./Technology/TechnoCardTwo";
 
 export { ContactForm } from "./ContactUs/ContactForm"
+export { MapComponent } from "./ContactUs/MapComponent"
 
 export { ScrollToTop } from "./ScrollToTop";
