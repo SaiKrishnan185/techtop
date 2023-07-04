@@ -3,12 +3,12 @@ import React from 'react'
 export const ContactForm = () => {
   return (
     <div>
-        <div className='w-full  h-screen  my-2 md:flex pt-12 justify-center items-center text-white '>
-            <div className='md:wd-1/3'>
+        <div className='w-full   h-screen  my-2  sm:flex pt-12 justify-center items-center content-center text-white '>
+            <div className='sm:w-1/3 sm:pr-5'>
                 <p className='md:text-4xl text-2xl mb-10 p-2 text-center font-semibold tracking-tight'>Connect With Us</p>
                 <p className='text-md mb-10 p-2 text-center font-semibold tracking-tight'>Get in touch with Technonyms for software development inquiries, project inquiries, career opportunities and more!</p>
             </div>
-            <div className="flex flex-col text-center justify-center w-full  sm:px-64">
+            <div className="flex flex-col text-center justify-center w-full sm:px-0 px-2 sm:w-1/3">
                 <form action="#" className="space-y-8">
                     <div>
                     <label for="subject" className="block mb-2 text-sm font-medium text-gray-100 ">Name</label>

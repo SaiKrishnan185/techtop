@@ -4,7 +4,7 @@ export const ContactHome = () => {
   return (
     <div>
         <ContactForm />
-        <MapComponent />
+        <MapComponent/>
     </div>
   )
 }
