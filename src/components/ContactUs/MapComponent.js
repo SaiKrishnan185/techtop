@@ -10,7 +10,7 @@ export const MapComponent = () => {
       className="map-container"
       style={{ height: "400px", width: "100%", position: "relative" }}
     >
-      <LoadScript googleMapsApiKey="demo">
+      <LoadScript googleMapsApiKey={process.env.REACT_APP_API_KEY}>
         <GoogleMap
           mapContainerStyle={{ height: "100%", width: "100%" }}
           center={center}
