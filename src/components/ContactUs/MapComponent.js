@@ -7,7 +7,7 @@ export const MapComponent = () => {
 
   return (
     <div
-    className="sm:flex justify-center content-center items-center"
+    className="flex justify-center content-center items-center"
       style={{ height: "400px", width: "100%", position: "relative" }}
     >
       <LoadScript googleMapsApiKey={process.env.REACT_APP_API_KEY}>
